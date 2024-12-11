@@ -1,0 +1,16 @@
+
+create table a
+(       
+department int,
+month varchar(10),
+sales int
+);
+
+insert all
+ into a values(1,'jan',100)
+into a values(1,'feb',200)
+into a values(1,'mar',300)
+ into a values(2,'jan',10)
+ into a values(2,'feb',20)
+ into a values(2,'mar',30)
+select * from dual;
